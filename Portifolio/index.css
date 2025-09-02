@@ -10,7 +10,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
+
+}body, header, footer, .card, .card2, .texto, .sobre, .projetos {
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
+
+.logo img {
+  transition: filter 0.5s ease;
+}
+
 
 body {
     background-color: var(--cinza);
@@ -186,6 +194,8 @@ nav ul li a:hover {
 .contato {
     padding: 60px 20px;
     text-align: center;
+        margin-bottom: 200px;
+    margin-top: 180px;  
 }
 
 .projetos {
